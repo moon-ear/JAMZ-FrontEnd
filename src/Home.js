@@ -1,5 +1,6 @@
 import React from "react";
 import NavigationBar from "./components/NavigationBar";
+import Restaurants from "./components/Restaurants";
 import { Footer } from "./components/Footer";
 import { Animated } from "react-animated-css";
 import "animate.css/animate.min.css";
@@ -46,17 +47,29 @@ export const Home = () => (
           <div className="col-lg-5">
             <div className="work_info">
               <div className="section_title">
-                <ScrollAnimation animateIn="fadeInLeft" delay="300">
+                <ScrollAnimation
+                  animateIn="fadeInLeft"
+                  delay="300"
+                  animateOnce={true}
+                >
                   <h3>How we work</h3>
                 </ScrollAnimation>
 
-                <ScrollAnimation animateIn="fadeInLeft" delay="400">
+                <ScrollAnimation
+                  animateIn="fadeInLeft"
+                  delay="400"
+                  animateOnce={true}
+                >
                   <p className="mid_text">
                     “Function information without cross action media value.
                   </p>
                 </ScrollAnimation>
 
-                <ScrollAnimation animateIn="fadeInRight" delay="500">
+                <ScrollAnimation
+                  animateIn="fadeInRight"
+                  delay="500"
+                  animateOnce={true}
+                >
                   <p>
                     “Function information without cross action media value.
                     Efficiently unleash cross-media tour function information
@@ -70,6 +83,7 @@ export const Home = () => (
         </div>
       </div>
     </div>
+    <Restaurants />
     <Footer />
   </React.Fragment>
 );

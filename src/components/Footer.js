@@ -39,17 +39,7 @@ export const Footer = () => (
                   style={{ display: "inline-block" }}
                 >
                   <li>
-                    <a href="/">About</a>
-                  </li>
-                </ScrollAnimation>
-                <ScrollAnimation
-                  animateOnce={true}
-                  animateIn="fadeInDown"
-                  delay="400"
-                  style={{ display: "inline-block" }}
-                >
-                  <li>
-                    <a href="/">Contact Us</a>
+                    <a href="/about">About</a>
                   </li>
                 </ScrollAnimation>
               </ul>

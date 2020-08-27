@@ -1157,7 +1157,7 @@ h3 {
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png);
+  background-image: url(../img/banner/banner6.jpg);
 }
 
 /* line 9, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
@@ -3514,7 +3514,7 @@ h3 {
   right: 0;
   top: 0;
   height: 100%;
-  background-image: url(../img/work/work.png);
+  background-image: url(../img/work/drone_how.jpg);
   background-size: cover;
   background-position: center center;
   -webkit-border-radius: 20px 0 0 20px;

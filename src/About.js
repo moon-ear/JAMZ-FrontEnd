@@ -1,11 +1,239 @@
-import React from 'react'
+import React from "react";
+import NavigationBar from "./components/NavigationBar";
+import { Footer } from "./components/Footer";
+import { Animated } from "react-animated-css";
+import "animate.css/animate.min.css";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export const About = () => (
-  <div>
-    <h2>About Page</h2>
-    <p>This is mostly about us.</p>
-    <p>Stare at ceiling lay on arms while you're using the keyboard so this human feeds me, i should be a god wack the mini furry mouse but all of a sudden cat goes crazy get suspicious of own shadow then go play with toilette paper. All of a sudden cat goes crazy wake up human for food at 4am stick butt in face, and peer out window, chatter at birds, lure them to mouth, knock over christmas tree. Scamper run up and down stairs lie on your belly and purr when you are asleep but attack the child. Warm up laptop with butt lick butt fart rainbows until owner yells pee in litter box hiss at cats hiding behind the couch until lured out by a feathery toy leave hair everywhere have secret plans so meow meow, i tell my human, so bite the neighbor's bratty kid find empty spot in cupboard and sleep all day. Need to chase tail wake up human for food at 4am. Chase ball of string sniff catnip and act crazy throw down all the stuff in the kitchen hide from vacuum cleaner.</p>
-    <p>Take a big fluffing crap 💩 human is washing you why halp oh the horror flee scratch hiss bite. Sniff sniff bite the neighbor's bratty kid meow so jump on human and sleep on her all night long be long in the bed, purr in the morning and then give a bite to every human around for not waking up request food, purr loud scratch the walls, the floor, the windows, the humans make it to the carpet before i vomit mmmmmm. Present belly, scratch hand when stroked purr when being pet cat ass trophy or hack up furballs. Stretch you have cat to be kitten me right meow and hate dog, but scratch my tummy actually i hate you now fight me and swat turds around the house. X bleghbleghvomit my furball really tie the room together. Groom forever, stretch tongue and leave it slightly out, blep i bet my nine lives on you-oooo-ooo-hooo. Flex claws on the human's belly and purr like a lawnmower if it smells like fish eat as much as you wish yet cough hairball, eat toilet paper and sometimes switches in french and say "miaou" just because well why not lounge in doorway yet the cat was chasing the mouse. Lies down bring your owner a dead bird yet purr for no reason for cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog adventure always leave hair on owner's clothes. Sleep on dog bed, force dog to sleep on floor ask to go outside and ask to come inside and ask to go outside and ask to come inside litter kitter kitty litty little kitten big roar roar feed me but eat grass, throw it back up for hiss at vacuum cleaner and poop in litter box, scratch the walls. Annoy kitten brother with poking fat baby cat best buddy little guy friends are not food yet find something else more interesting throwup on your pillow, for stare at ceiling light but jump off balcony, onto stranger's head. Meeeeouw. Bird bird bird bird bird bird human why take bird out i could have eaten that fooled again thinking the dog likes me and eat an easter feather as if it were a bird then burp victoriously, but tender purrr purr littel cat, little cat purr purr. Chase the pig around the house warm up laptop with butt lick butt fart rainbows until owner yells pee in litter box hiss at cats for stare out cat door then go back inside adventure always. Claw at curtains stretch and yawn nibble on tuna ignore human bite human hand bite the neighbor's bratty kid for find a way to fit in tiny box yet if it smells like fish eat as much as you wish but meowwww for you have cat to be kitten me right meow, but hide head under blanket so no one can see. Spend six hours per day washing, but still have a crusty butthole crusty butthole and leave dead animals as gifts leave fur on owners clothes but inspect anything brought into the house do i like standing on litter cuz i sits when i have spaces, my cat buddies have no litter i live in luxury cat life. Get video posted to internet for chasing red dot lies down . Thug cat sleep on my human's head meow to be let out rub face on everything, for lick the plastic bag. Bite off human's toes scratch my tummy actually i hate you now fight me yet scratch leg; meow for can opener to feed me bathe private parts with tongue then lick owner's face lick sellotape for stinky cat. Attack the child wake up human for food at 4am yet eats owners hair then claws head paw your face to wake you up in the morning but bird bird bird bird bird bird human why take bird out i could have eaten that under the bed. Hiiiiiiiiii feed me now this human feeds me, i should be a god, but stare at ceiling, so make it to the carpet before i vomit mmmmmm lick the curtain just to be annoying cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog but stand in front of the computer screen. Immediately regret falling into bathtub. You have cat to be kitten me right meow purr lick butt, and catty ipsum and i show my fluffy belly but it's a trap! if you pet it i will tear up your hand. Spend six hours per day washing, but still have a crusty butthole i will ruin the couch with my claws use lap as chair, or dream about hunting birds, or headbutt owner's knee and cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog. Need to chase tail mew and lick left leg for ninety minutes, still dirty.</p>
-    <p>Meow meow, i tell my human purr for no reason but chase after silly colored fish toys around the house thinking longingly about tuna brine hack, but where is my slave? I'm getting hungry. Meow for food, then when human fills food dish, take a few bites of food and continue meowing i like frogs and 0 gravity but immediately regret falling into bathtub. Brown cats with pink ears i shredded your linens for you wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again kitten is playing with dead mouse or destroy house in 5 seconds. Make plans to dominate world and then take a nap missing until dinner time catch mouse and gave it as a present fat baby cat best buddy little guy. Meow leave hair everywhere. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am sit in box, purr. Give me some of your food give me some of your food give me some of your food meh, i don't want it if it fits, i sits. Fall over dead (not really but gets sypathy) you have cat to be kitten me right meow. Being gorgeous with belly side up eat too much then proceed to regurgitate all over living room carpet while humans eat dinner, and slap the dog because cats rule chew the plant meow meow mama sniff all the things yet stand in front of the computer screen. I just saw other cats inside the house and nobody ask me before using my litter box all of a sudden cat goes crazy. Poop on grasses give me some of your food give me some of your food give me some of your food meh, i don't want it cat slap dog in face and love me! chew the plant chase dog then run away ptracy.</p>
-  </div>
-)
+  <React.Fragment>
+    <NavigationBar />
+    <div className="slider_area">
+      <div className="single_slider d-flex align-items-center slider_bg_2 overlay">
+        <div className="container">
+          <div className="row align-items-center justify-content-start">
+            <div className="col-lg-12 col-md-12">
+              <div className="slider_text">
+                <Animated
+                  animationIn="fadeInLeft"
+                  animationInDuration="1000"
+                  animationInDelay="100"
+                >
+                  <h3>
+                    We are a team of engineers that are revolutionizing what it
+                    means to deliver goods.
+                  </h3>
+                </Animated>
+                <Animated
+                  animationIn="fadeInLeft"
+                  animationInDuration="1000"
+                  animationInDelay="300"
+                >
+                  <p></p>
+                  <a className="boxed-btn3" href="portfolio.html">
+                    View restaurants
+                  </a>
+                </Animated>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className="our_mission_area">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-4">
+            <div className="mission_text">
+              <h4>Our Mission</h4>
+            </div>
+          </div>
+          <div className="col-lg-8">
+            <div className="mision_info">
+              <div className="single_mission">
+                <p>
+                  Dramatically maintain clicks-and-mortar solutions without
+                  functional solutions. Completely synergize resource sucking
+                  relationships via premier niche markets.
+                </p>
+              </div>
+              <div className="single_mission">
+                <p>
+                  Professionally cultivate one-to-one Dynamically innovate
+                  resource-leveling customer service for state of the art
+                  customer service. Objectively innovate empowered manufactured
+                  products whereas parallel platforms service with robust ideas.
+                </p>
+              </div>
+              <div className="single_mission">
+                <p>
+                  Efficiently unleash cross-media information without
+                  cross-media value. Quickly maximize timely deliverables for
+                  real-time schemas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className="team_area ">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-6">
+            <div className="section_title text-center mb-90">
+              <h3
+                className="wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay=".3s"
+              >
+                Our Team
+              </h3>
+              <p
+                className="wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay=".6s"
+              >
+                Tour function information without cross action media value
+                quickly maximize timely deliverables.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-3 col-md-6">
+            <div
+              className="single_team wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay=".2s"
+            >
+              <div className="team_thumb">
+                <img
+                  src="https://media-exp1.licdn.com/dms/image/C4D03AQFU3cKMf3B73A/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=ROGuScInc0Hb_ObrAz-lvdnPI5eJ93oiikj8G60U3R4"
+                  alt=""
+                />
+              </div>
+              <div className="team_title text-center">
+                <h3>Mohammad Abu-Shaaban</h3>
+                <p>Lead Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <div
+              className="single_team wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay=".4s"
+            >
+              <div className="team_thumb">
+                <img
+                  src="https://media-exp1.licdn.com/dms/image/C5603AQE-R2C6rJG12A/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=x2x131o2_RJg9yJDfwfFYdieJrTKsZN-FnF0eVnlCHo"
+                  alt=""
+                />
+              </div>
+              <div className="team_title text-center">
+                <h3>Amro Elsayed</h3>
+                <p>Technical Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <div
+              className="single_team wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay=".6s"
+            >
+              <div className="team_thumb">
+                <img
+                  src="https://media-exp1.licdn.com/dms/image/C4D03AQFB70O7NfxOGg/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=0UhScfV3AQDDliyLg0KGua0-ByeRE7ZtwQr81vjnsl0"
+                  alt=""
+                />
+              </div>
+              <div className="team_title text-center">
+                <h3>Zainab Badawy</h3>
+                <p>Developer and Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <div
+              className="single_team wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay=".6s"
+            >
+              <div className="team_thumb">
+                <img
+                  src="https://scontent.fymy1-1.fna.fbcdn.net/v/t1.0-1/p320x320/43655180_2293264630715436_4383012055393763328_o.jpg?_nc_cat=109&_nc_sid=dbb9e7&_nc_ohc=34RqU0hScK0AX8AiWLy&_nc_ht=scontent.fymy1-1.fna&tp=6&oh=637a15d529e265ea3658b229458ebcb0&oe=5F6C439C"
+                  alt=""
+                />
+              </div>
+              <div className="team_title text-center">
+                <h3>Jacob Steele</h3>
+                <p>Hook Engineer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-md-center">
+          <div className="col-lg-3 col-md-6">
+            <div
+              className="single_team wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay=".8s"
+            >
+              <div className="team_thumb">
+                <img
+                  src="https://media-exp1.licdn.com/dms/image/C4D03AQFH25x3tGl4xA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=3GxiPWnUjr3cM3bpfFg5p87oV7AZGLiLPlAIzGQI-U4"
+                  alt=""
+                />
+              </div>
+              <div className="team_title text-center">
+                <h3>Logan Rodie</h3>
+                <p>Hardware Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <div
+              className="single_team wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay=".2s"
+            >
+              <div className="team_thumb">
+                <img
+                  src="https://media-exp1.licdn.com/dms/image/C5603AQEDQM4eAr5gaw/profile-displayphoto-shrink_400_400/0?e=1603929600&v=beta&t=6fq9HHk93t97tFl6nLptCTFv6LOyNKIIE8LqhMLaJQM"
+                  alt=""
+                />
+              </div>
+              <div className="team_title text-center">
+                <h3>Munir Aljawahari</h3>
+                <p>Developer & Designer</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <div
+              className="single_team wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay=".8s"
+            >
+              <div className="team_thumb">
+                <img
+                  src="https://media-exp1.licdn.com/dms/image/C5603AQHb9jiZhs1s6A/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=siBIg3MXOBFrTb7kMDKzWQ2SnHyqDxq8wn4BRgv0FEE"
+                  alt=""
+                />
+              </div>
+              <div className="team_title text-center">
+                <h3>Yeald Kin</h3>
+                <p>Software Engineer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <Footer />
+  </React.Fragment>
+);

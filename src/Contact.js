@@ -1,8 +1,89 @@
-import React from 'react'
+import React from "react";
+import NavigationBar from "./components/NavigationBar";
+import Restaurants from "./components/Restaurants";
+import { Footer } from "./components/Footer";
+import { Animated } from "react-animated-css";
+import "animate.css/animate.min.css";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export const Contact = () => (
-  <div>
-    <h2>Contact Us</h2>
-    <p>Stare at ceiling lay on arms while you're using the keyboard so this human feeds me, i should be a god wack the mini furry mouse but all of a sudden cat goes crazy get suspicious of own shadow then go play with toilette paper. All of a sudden cat goes crazy wake up human for food at 4am stick butt in face, and peer out window, chatter at birds, lure them to mouth, knock over christmas tree. Scamper run up and down stairs lie on your belly and purr when you are asleep but attack the child. Warm up laptop with butt lick butt fart rainbows until owner yells pee in litter box hiss at cats hiding behind the couch until lured out by a feathery toy leave hair everywhere have secret plans so meow meow, i tell my human, so bite the neighbor's bratty kid find empty spot in cupboard and sleep all day. Need to chase tail wake up human for food at 4am. Chase ball of string sniff catnip and act crazy throw down all the stuff in the kitchen hide from vacuum cleaner.</p>
-  </div>
-)
+  <React.Fragment>
+    <NavigationBar />
+    <div className="slider_area">
+      <div className="single_slider  d-flex align-items-center slider_bg_1 overlay">
+        <div className="container">
+          <div className="row align-items-center justify-content-start">
+            <div className="col-lg-10 col-md-10">
+              <div className="slider_text">
+                <Animated
+                  animationIn="fadeInLeft"
+                  animationInDuration="1000"
+                  animationInDelay="100"
+                >
+                  <h3>Contact page</h3>
+                </Animated>
+                <Animated
+                  animationIn="fadeInLeft"
+                  animationInDuration="1000"
+                  animationInDelay="300"
+                >
+                  <p></p>
+                  <a className="boxed-btn3" href="portfolio.html">
+                    View restaurants
+                  </a>
+                </Animated>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="how_we_work_area"
+      style={{ marginTop: "17em", marginBottom: "8em" }}
+    >
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-5">
+            <div className="work_info">
+              <div className="section_title">
+                <ScrollAnimation
+                  animateIn="fadeInLeft"
+                  delay="300"
+                  animateOnce={true}
+                >
+                  <h3>How we work</h3>
+                </ScrollAnimation>
+
+                <ScrollAnimation
+                  animateIn="fadeInLeft"
+                  delay="400"
+                  animateOnce={true}
+                >
+                  <p className="mid_text">
+                    “Function information without cross action media value.
+                  </p>
+                </ScrollAnimation>
+
+                <ScrollAnimation
+                  animateIn="fadeInRight"
+                  delay="500"
+                  animateOnce={true}
+                >
+                  <p>
+                    “Function information without cross action media value.
+                    Efficiently unleash cross-media tour function information
+                    without cross action media value. Quickly maximize timely
+                    deliverables for real-time schemas.
+                  </p>
+                </ScrollAnimation>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <Restaurants />
+    <Footer />
+  </React.Fragment>
+);
