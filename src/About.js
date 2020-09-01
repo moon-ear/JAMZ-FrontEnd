@@ -193,7 +193,7 @@ export const About = () => (
                 </div>
                 <div className="team_title text-center">
                   <h3>Jacob Steele</h3>
-                  <p>Hook Engineer</p>
+                  <p>Mechanical Engineer</p>
                 </div>
               </div>
             </ScrollAnimation>
@@ -236,26 +236,6 @@ export const About = () => (
                 <div className="team_title text-center">
                   <h3>Munir Aljawahari</h3>
                   <p>Developer & Designer</p>
-                </div>
-              </div>
-            </ScrollAnimation>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <ScrollAnimation
-              animateOnce={true}
-              animateIn="fadeInUp"
-              delay="600"
-            >
-              <div className="single_team">
-                <div className="team_thumb">
-                  <img
-                    src="https://media-exp1.licdn.com/dms/image/C5603AQHb9jiZhs1s6A/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=siBIg3MXOBFrTb7kMDKzWQ2SnHyqDxq8wn4BRgv0FEE"
-                    alt=""
-                  />
-                </div>
-                <div className="team_title text-center">
-                  <h3>Faizaan Chishtie</h3>
-                  <p>Software Engineer</p>
                 </div>
               </div>
             </ScrollAnimation>

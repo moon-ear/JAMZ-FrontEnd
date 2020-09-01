@@ -2162,6 +2162,11 @@ h3 {
   background-image: url(../img/banner/bradcam_3.png);
 }
 
+/* line 7, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
+.bradcam_bg_drone {
+  background-image: url(../img/banner/bradcam_drone.jpg);
+}
+
 /* line 13, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;

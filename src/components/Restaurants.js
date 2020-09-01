@@ -17,7 +17,9 @@ class Restaurants extends React.Component {
     return (
       <Styles>
         <Container className="section_title my-5">
-          <h3 style={{ marginBottom: "50px" }}>Delivery options in Ottawa</h3>
+          <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay="200">
+            <h3 style={{ marginBottom: "50px" }}>Delivery options in Ottawa</h3>
+          </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay="300">
             <CardDeck>
               <Card className="my-card">
