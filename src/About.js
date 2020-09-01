@@ -20,8 +20,8 @@ export const About = () => (
                   animationInDelay="100"
                 >
                   <h3>
-                    We are a team of engineers that are revolutionizing what it
-                    means to deliver goods.
+                    We are a team of students that are revolutionizing future
+                    delivery services.
                   </h3>
                 </Animated>
                 <Animated
@@ -51,7 +51,7 @@ export const About = () => (
               delay="200"
             >
               <div className="mission_text">
-                <h4>Our Mission</h4>
+                <h4>Our Solution</h4>
               </div>
             </ScrollAnimation>
           </div>
@@ -64,25 +64,34 @@ export const About = () => (
               <div className="mision_info">
                 <div className="single_mission">
                   <p>
-                    Dramatically maintain clicks-and-mortar solutions without
-                    functional solutions. Completely synergize resource sucking
-                    relationships via premier niche markets.
+                    The rise of a global pandemic has promoted the use of
+                    alternative technologies to stop the spread of the virus.
+                    These technologies have helped businesses stay open while
+                    maintaining COVID-19 social distancing measures.{" "}
+                    <strong>
+                      One of the biggest industries that struggled to keep up
+                      was the food industry.
+                    </strong>
                   </p>
                 </div>
                 <div className="single_mission">
                   <p>
-                    Professionally cultivate one-to-one Dynamically innovate
-                    resource-leveling customer service for state of the art
-                    customer service. Objectively innovate empowered
-                    manufactured products whereas parallel platforms service
-                    with robust ideas.
+                    Restaurants had to quickly and effectively adapt to the new
+                    normal. For example, restaurant managers had to enforce the
+                    rule of wearing a face mask and control the number of
+                    customers in their stores at all times. This resulted in
+                    decreased traffic and performance drops.
                   </p>
                 </div>
                 <div className="single_mission">
                   <p>
-                    Efficiently unleash cross-media information without
-                    cross-media value. Quickly maximize timely deliverables for
-                    real-time schemas.
+                    To combat the spread of COVID-19 through food delivery and
+                    solve many of the issues that restaurant managers and owners
+                    faced with the current delivery system, a{" "}
+                    <strong>
+                      proposed solution of an autonomous drone fleet with food
+                      delivery mechanics was put forward.
+                    </strong>
                   </p>
                 </div>
               </div>
@@ -110,8 +119,8 @@ export const About = () => (
                 delay="600"
               >
                 <p>
-                  Tour function information without cross action media value
-                  quickly maximize timely deliverables.
+                  Meet the team responsible for making your next drone food
+                  delivery possible.
                 </p>
               </ScrollAnimation>
             </div>
@@ -133,7 +142,7 @@ export const About = () => (
                 </div>
                 <div className="team_title text-center">
                   <h3>Mohammad Abu-Shaaban</h3>
-                  <p>Lead Engineer</p>
+                  <p>Technical Lead</p>
                 </div>
               </div>
             </ScrollAnimation>
@@ -153,7 +162,7 @@ export const About = () => (
                 </div>
                 <div className="team_title text-center">
                   <h3>Amro Elsayed</h3>
-                  <p>Technical Engineer</p>
+                  <p>Design Lead and Business Strategist</p>
                 </div>
               </div>
             </ScrollAnimation>
@@ -173,7 +182,7 @@ export const About = () => (
                 </div>
                 <div className="team_title text-center">
                   <h3>Zainab Badawy</h3>
-                  <p>Developer and Engineer</p>
+                  <p>Developer and Business Lead</p>
                 </div>
               </div>
             </ScrollAnimation>
@@ -193,7 +202,7 @@ export const About = () => (
                 </div>
                 <div className="team_title text-center">
                   <h3>Jacob Steele</h3>
-                  <p>Mechanical Engineer</p>
+                  <p>Mechanical Lead</p>
                 </div>
               </div>
             </ScrollAnimation>
@@ -215,7 +224,7 @@ export const About = () => (
                 </div>
                 <div className="team_title text-center">
                   <h3>Logan Rodie</h3>
-                  <p>Hardware Engineer</p>
+                  <p>Back-End Software lead</p>
                 </div>
               </div>
             </ScrollAnimation>
@@ -263,8 +272,8 @@ export const About = () => (
                 delay="400"
               >
                 <p>
-                  Tour function information without cross action media value
-                  quickly maximize timely deliverables.
+                  Whether it's an investment opportunity, an enquiry to join the
+                  team, or a simple hello, our inbox is always open!
                 </p>
               </ScrollAnimation>
             </div>

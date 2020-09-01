@@ -61,7 +61,8 @@ export const Home = () => (
                   animateOnce={true}
                 >
                   <p className="mid_text">
-                    “Function information without cross action media value.
+                    Our goal is to send autonomous drones to delivery your
+                    favorite dishes.
                   </p>
                 </ScrollAnimation>
 
@@ -71,10 +72,11 @@ export const Home = () => (
                   animateOnce={true}
                 >
                   <p>
-                    “Function information without cross action media value.
-                    Efficiently unleash cross-media tour function information
-                    without cross action media value. Quickly maximize timely
-                    deliverables for real-time schemas.
+                    Following the spread of the Coronavirus, a clear deficiency
+                    gap was identified in the fast food industry. Many small
+                    businesses were deeply impacted by the results of social
+                    distancing and have yet to recover. Thus, our drone solution
+                    was created.
                   </p>
                 </ScrollAnimation>
               </div>
